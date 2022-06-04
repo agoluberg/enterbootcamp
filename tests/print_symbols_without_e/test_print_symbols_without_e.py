@@ -96,6 +96,7 @@ def test_print_remove_e(capsys):
 
 
 def test_print_remove_e_and_space(capsys):
+    """Test."""
     __test_result(capsys, "  e  ")
     __test_result(capsys, "ee ee")
     __test_result(capsys, "tere pere")
